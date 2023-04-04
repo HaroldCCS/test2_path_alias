@@ -27,7 +27,8 @@ module.exports = function (api) {
           root: ['./src'],
           extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
           alias: {
-            '@perro': './commons',
+            app_components: './src/commons',
+            perro: './commons',
           },
         },
       ],

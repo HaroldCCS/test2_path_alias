@@ -21,7 +21,7 @@ import {
   Header,
   LearnMoreLinks,
 } from 'react-native/Libraries/NewAppScreen';
-import Section from '@perro/bar-vertical';
+import Section from 'app_components/bar-vertical';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';

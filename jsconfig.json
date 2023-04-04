@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@perro": ["./commons"],
-
+      "app_components": ["./commons"],
     }
   }
 }

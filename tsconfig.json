@@ -4,7 +4,13 @@
     "baseUrl": "./src",
     "paths": {
       "*": ["src/*"],
-      "@perro/*": ["src/commons/*"],
+      "app_components/*": ["commons/*"],
+      "perro/*": ["src/commons/*"],
     }
-  }
+  },
+  "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+  "lib": [
+    "es6"
+  ] /* Specify library files to be included in the compilation. */,
+
 }
